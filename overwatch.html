@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Overwatch Character Suggestion Maker</title>
+  </head>
+  <body>
+    <h1>Overwatch Character Suggester</h1>
+    <p>This tool suggests a character to play given an overwatch team comp</p>
+    <h2>Othet Team</h2>
+    <select>
+      <option>Mercy</option>
+      <option>Bastion</option>
+      <option>Reaper</option>
+      <option>Road Hog</option>
+    </select>
+    <h2>Your Team</h2>
+    <select>
+      <option>Mercy</option>
+      <option>Bastion</option>
+      <option>Reaper</option>
+      <option>Road Hog</option>
+    </select>
+    <h2>You should play</h2>
+    <p id="suggestion"></p>
+  <script>
+    let suggestionTag = document.getElementById("suggestion");
+    suggestionTag.innerHTML = "Widowmaker";
+  </script>
+  </body>
+</html>
